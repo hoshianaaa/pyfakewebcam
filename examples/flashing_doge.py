@@ -5,7 +5,7 @@ import timeit
 
 from PIL import Image
 
-cam = pyfakewebcam.FakeWebcam('/dev/video1', 1280, 720)
+cam = pyfakewebcam.FakeWebcam('/dev/video30', 1280, 720)
 
 cam.print_capabilities()
 
